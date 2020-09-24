@@ -71,6 +71,7 @@ class Globals
             if ($host === 'eventsmart.info') {
                 Settings::$DB_DATABASE = 'itechweb_eventsmart';
                 self::$COUNTRY = $subMostDomain;
+		// testing
 
                 // eventsmart.info is a special case site
                 Settings::$COUNTRY_BASE_URL = 'http://eventsmart.info';
